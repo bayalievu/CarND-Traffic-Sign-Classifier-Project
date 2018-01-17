@@ -117,7 +117,7 @@ Here are the results of the prediction:
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Road Work      		| Road Work   									| 
-| Priority On next intersection     			| Priority On next intersection 										|
+| Right-of-way at the next intersection     			| Right-of-way at the next intersection 										|
 | General caution					| General caution											|
 | Keep Right     		| Vehicles over 3.5 metric tons prohibited					 				|
 | Speed limit 30			| Speed Limit 30      							|
@@ -129,7 +129,7 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 10th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a road work sign (probability of 0.99), and the image does contain a road work sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a road work sign (probability of 0.98), and the image does contain a road work sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -140,9 +140,14 @@ For the first image, the model is relatively sure that this is a road work sign 
 | .0002				    | Turn right ahead      							|
 
 
-For the second image ... 
+For the second image the model is relatively sure that this is a Right-of-way at the next intersection
+ (probability of 0.99). The top five soft max probabilities were
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
-
-
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| Right-of-way at the next intersection   									| 
+| .002     				|  		Beware of ice/snow								|
+| .003					| 				Slippery road						|
+| .0001	      			| 				Double curve 				|
+| .002				    |     Priority road  							|
+ 
