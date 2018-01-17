@@ -53,7 +53,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Exploratory visualization of the data set and bar chart showing how the data samples spread are in the ipython notebook file in the github repository.
+Exploratory visualization of the data set and bar chart showing how the data samples spread are in the ipython notebook file in cells 3 and 12.
 
 ### Design and Test a Model Architecture
 
@@ -127,17 +127,17 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 10th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a road work sign (probability of 0.99), and the image does contain a road work sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .98         			| Road work sign   									| 
+| .007     				| Roundabout mandatory 										|
+| .002					| Dangerous curve to the left										|
+| .001	      			| Ahead only					 				|
+| .0002				    | Turn right ahead      							|
 
 
 For the second image ... 
