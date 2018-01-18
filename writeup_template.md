@@ -160,3 +160,23 @@ For the third image the model is relatively sure that this is a General caution 
 | .001	      			| 				27 				|
 | .0002				    |     31  							|
  
+For the 4th image the model made wrong decision (probability of 0.95) Vehicles over 3.5 metric tons prohibited. The correct class Keep Right only had 0.003 probalility. The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .95         			|   	Vehicles over 3.5 metric tons prohibited								| 
+| .002     				|  		17							|
+| .003					| 				19						|
+| .003      			| 				Keep right 				|
+| .0002				    |     20  							| 
+
+For the 5th image the model is relatively sure that this is a Speed limit 30 (probability of 0.63). The probability is low because the Speed limit signs look like each other. The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .63         			| Speed limit 30  									| 
+| .15     				|  		Speed limit 50								|
+| .13					| 				Speed limit 80						|
+| .06	      			| 				40 				|
+| .01				    |     10  							|
+
