@@ -148,6 +148,17 @@ For the second image the model is relatively sure that this is a Right-of-way at
 | .99         			| Right-of-way at the next intersection   									| 
 | .002     				|  		Beware of ice/snow								|
 | .003					| 				Slippery road						|
-| .0001	      			| 				Double curve 				|
-| .002				    |     Priority road  							|
+| .001	      			| 				Double curve 				|
+| .0002				    |     Priority road  							|
+ 
+
+For the third image the model is relatively sure that this is a General caution (probability of 0.99). The top five soft max probabilities were
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .99         			| Right-of-way at the next intersection   									| 
+| .002     				|  		Beware of ice/snow								|
+| .003					| 				Slippery road						|
+| .001	      			| 				Double curve 				|
+| .0002				    |     Priority road  							|
  
