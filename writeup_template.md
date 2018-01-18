@@ -154,9 +154,9 @@ For the third image the model is relatively sure that this is a General caution 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| Right-of-way at the next intersection   									| 
-| .002     				|  		Beware of ice/snow								|
-| .003					| 				Slippery road						|
-| .001	      			| 				Double curve 				|
-| .0002				    |     Priority road  							|
+| .99         			| General caution  									| 
+| .002     				|  		24								|
+| .003					| 				26						|
+| .001	      			| 				27 				|
+| .0002				    |     31  							|
  
